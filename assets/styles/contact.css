@@ -1,0 +1,675 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.container .d-none {
+  display: none;
+}
+.container header {
+  background-image: url("../images/headerbg.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+.container header .logo {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container header .logo h1 {
+  font-family: "Abril Fatface", serif;
+  color: #ffffff;
+  font-size: 60px;
+  margin: 0;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.container header nav {
+  display: flex;
+  justify-content: space-between;
+}
+.container header nav .burger-menu-desk {
+  padding-top: 25px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.container header nav .desktop-menu li {
+  padding-bottom: 10px;
+  padding-left: 20px;
+  list-style: none;
+}
+.container header nav .desktop-menu li a {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 300;
+}
+.container header nav .desktop-menu li:first-child {
+  padding-top: 20px;
+}
+.container header nav .desktop-menu li:nth-child(5) a {
+  font-weight: 800;
+}
+.container header nav .desktop-menu-visible {
+  display: none;
+}
+.container header nav .btn-book {
+  margin-top: 15px;
+  margin-right: 15px;
+  width: 191px;
+  height: 50px;
+  background: none;
+  border: 2px solid #E9C664;
+  transition: 0.3s;
+}
+.container header nav .btn-book a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.container header nav .btn-book:hover {
+  background: #E9C664;
+  border: 2px solid #E9C664;
+}
+.container header nav .btn-book:hover a {
+  color: #000000;
+}
+.container main .contact-form {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../images/formbg.png");
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 40px;
+  gap: 20px;
+}
+.container main .contact-form .contact-details {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+.container main .contact-form .contact-details h2 {
+  font-family: "Abril Fatface", serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+.container main .contact-form .contact-details .office,
+.container main .contact-form .contact-details .contact,
+.container main .contact-form .contact-details .hours {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 15px 0 5px 0;
+}
+.container main .contact-form .contact-details p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+.container main .contact-form .contact-form-container {
+  flex: 1;
+}
+.container main .contact-form .contact-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.container main .contact-form .contact-form-container form input,
+.container main .contact-form .contact-form-container form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #333;
+  color: #ffffff;
+  outline: none;
+}
+.container main .contact-form .contact-form-container form input textarea,
+.container main .contact-form .contact-form-container form textarea textarea {
+  height: 100px;
+  resize: none;
+}
+.container main .contact-form .contact-form-container form .btn-book {
+  width: 100%;
+  padding: 10px;
+  background-color: #E9C664;
+  border: none;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.container main .contact-form .contact-form-container form .btn-book:hover {
+  background-color: #d4b154;
+}
+.container main .discount {
+  background: #E9C664;
+  margin: 30px 30px;
+}
+.container main .discount .d-block {
+  padding: 30px;
+}
+.container main .discount .d-block h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.container main .discount .d-block h2 {
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "Abril Fatface", serif;
+}
+.container main .discount .d-block p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.container main .discount .d-block button {
+  width: 120px;
+  color: white;
+  text-transform: uppercase;
+  background: #000000;
+  border: none;
+  height: 50px;
+  transition: 0.3s;
+}
+.container main .discount .d-block button a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 900;
+}
+.container main .discount .d-block button:hover {
+  background: #E9C664;
+  border: 2px solid #000000;
+}
+.container main .discount .d-block button:hover a {
+  color: #000000;
+}
+.container main .discount .disc-img {
+  display: flex;
+  justify-content: end;
+}
+.container main .discount .disc-img img {
+  width: 100%;
+}
+.container main .brand-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #212121;
+  text-align: center;
+}
+.container main .brand-block .brand-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.container main .brand-block .brand-text h2 {
+  color: #ffffff;
+  font-family: "Abril Fatface", serif;
+  font-size: 45px;
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.container main .brand-block .brand-text p {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  width: 83%;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.container main .brand-block .line {
+  width: 80%;
+  height: 2px;
+  background: #E9C664;
+  margin-bottom: 50px;
+}
+.container main .brand-block .brand-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.container footer .contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container footer .contacts .contacts-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container footer .contacts .contacts-text h2 {
+  font-family: "Abril Fatface", serif;
+  font-size: 50px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+  margin-top: 60px;
+  text-transform: uppercase;
+}
+.container footer .contacts .contacts-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 80px;
+  font-weight: 400;
+}
+.container footer .contacts .contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container footer .contacts .contact-info .contact-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container footer .contacts .contact-info .contact-block h3 {
+  font-family: "Abril Fatface", serif;
+  font-size: 20px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.container footer .contacts .contact-info .contact-block p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+.container footer .contacts .line {
+  width: 80%;
+  height: 2px;
+  background: #E9C664;
+  margin-bottom: 50px;
+}
+.container footer .copyright {
+  margin-bottom: 60px;
+}
+@media screen and (max-width: 575px) {
+  .container .desktop-menu-burger {
+    display: none;
+  }
+  .container .brand-text {
+    margin: 0 20px;
+  }
+  .container .contacts-text {
+    margin: 0 20px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .container header {
+    height: 350px;
+  }
+  .container header nav {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+  }
+  .container header nav .desktop-menu-visible {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container header nav .desktop-menu-visible li {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    list-style: none;
+    margin-right: 20px;
+  }
+  .container header nav .desktop-menu-visible li a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .container header nav .desktop-menu-visible li a:hover {
+    font-weight: 600;
+  }
+  .container header nav .desktop-menu-visible li:nth-child(5) a {
+    font-weight: 600;
+  }
+  .container header nav .desktop-menu-visible li:last-child {
+    margin-right: 0;
+  }
+  .container header nav .btn-book {
+    width: 150px;
+    height: 40px;
+  }
+  .container header nav .btn-book a {
+    font-size: 14px;
+  }
+  .container header .logo h1 {
+    font-size: 50px;
+  }
+  .container main .contact-form {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+  }
+  .container main .contact-form .contact-details {
+    padding: 15px;
+  }
+  .container main .contact-form .contact-details h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+  .container main .contact-form .contact-details .office,
+  .container main .contact-form .contact-details .contact,
+  .container main .contact-form .contact-details .hours {
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+  }
+  .container main .contact-form .contact-details p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .container main .contact-form .contact-form-container form {
+    gap: 10px;
+  }
+  .container main .contact-form .contact-form-container form input,
+  .container main .contact-form .contact-form-container form textarea {
+    padding: 8px;
+    font-size: 14px;
+  }
+  .container main .contact-form .contact-form-container form input textarea,
+  .container main .contact-form .contact-form-container form textarea textarea {
+    height: 80px;
+  }
+  .container main .contact-form .contact-form-container form .btn-book {
+    padding: 8px;
+    font-size: 14px;
+  }
+  .container main .discount {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container main .discount .d-block {
+    width: 50%;
+    padding: 20px;
+  }
+  .container main .discount .d-block h3 {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  .container main .discount .d-block h2 {
+    font-size: 40px;
+  }
+  .container main .discount .d-block p {
+    font-size: 14px;
+  }
+  .container main .discount .d-block button {
+    width: 100px;
+    height: 40px;
+  }
+  .container main .discount .d-block button a {
+    font-size: 14px;
+  }
+  .container main .discount .disc-img {
+    width: 50%;
+  }
+  .container main .discount .disc-img img {
+    width: 100%;
+  }
+  .container main .brand-block {
+    padding: 20px;
+  }
+  .container main .brand-block .brand-text {
+    margin-top: 30px;
+  }
+  .container main .brand-block .brand-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .container main .brand-block .brand-text p {
+    font-size: 16px;
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  .container main .brand-block .line {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  .container main .brand-block .brand-img {
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .container main .brand-block .brand-img img {
+    width: 100px;
+  }
+  .container footer .contacts .contacts-text {
+    width: 90%;
+    margin: 0 20px;
+  }
+  .container footer .contacts .contacts-text h2 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .container footer .contacts .contacts-text p {
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+  .container footer .contacts .contact-info {
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container footer .contacts .contact-info .contact-block {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+  .container footer .contacts .contact-info .contact-block h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .container footer .contacts .contact-info .contact-block p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .container footer .contacts .line {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  .container footer .contacts .copyright {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container header {
+    height: 381px;
+  }
+  .container header nav {
+    margin-left: 72px;
+    margin-right: 72px;
+    padding-top: 40px;
+  }
+  .container header nav .desktop-menu {
+    display: none;
+  }
+  .container header nav .desktop-menu-visible {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container header nav .desktop-menu-visible li {
+    padding-bottom: 10px;
+    padding-left: 20px;
+    list-style: none;
+    margin-right: 50px;
+  }
+  .container header nav .desktop-menu-visible li a {
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+    transition: 0.3s;
+  }
+  .container header nav .desktop-menu-visible li a:hover {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .container header nav .desktop-menu-visible li:nth-child(5) a {
+    font-weight: 800;
+  }
+  .container header nav .desktop-menu-visible li:last-child {
+    margin-right: 0;
+  }
+  .container header .logo img {
+    width: 50%;
+  }
+  .container main .contact-form {
+    padding: 40px;
+  }
+  .container main .contact-form .contact-details {
+    padding: 20px;
+  }
+  .container main .contact-form .contact-form-container form {
+    gap: 15px;
+  }
+  .container main .contact-form .contact-form-container form input,
+  .container main .contact-form .contact-form-container form textarea {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .container main .contact-form .contact-form-container form input textarea,
+  .container main .contact-form .contact-form-container form textarea textarea {
+    height: 100px;
+  }
+  .container main .contact-form .contact-form-container form .btn-book {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .container main .discount {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 150px;
+  }
+  .container main .discount .d-block {
+    width: 540px;
+    margin-left: 250px;
+  }
+  .container main .discount .d-block h2 {
+    font-size: 70px;
+    margin-bottom: 0;
+  }
+  .container main .discount .d-block p {
+    margin-bottom: 35px;
+  }
+  .container main .brand-block {
+    height: 560px;
+    flex-direction: row;
+  }
+  .container main .brand-block .brand-text {
+    align-items: start;
+    justify-content: center;
+    width: 450px;
+    margin-top: 0;
+  }
+  .container main .brand-block .line {
+    margin-bottom: 0;
+    transform: rotate(90deg);
+    width: 20%;
+  }
+  .container main .brand-block .brand-img {
+    width: 550px;
+    gap: 10px;
+  }
+  .container footer .contacts .contacts-text {
+    width: 770px;
+  }
+  .container footer .contacts .contact-info {
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 70%;
+  }
+}
+
+.desktop-menu {
+  position: absolute;
+  right: -9999px;
+  top: 120px;
+  width: 100%;
+  height: calc(100vh - 60px);
+  font-weight: 700;
+  font-size: 0.725rem;
+  transition: all 0.5s ease;
+  background-image: url("../images/mainbg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.desktop-menu__open {
+  right: 0;
+  transition: all 0.5s ease;
+}
+
+.desktop-menu-burger {
+  position: absolute;
+  right: -9999px;
+  top: 120px;
+  width: 100%;
+  height: calc(100vh - 60px);
+  font-weight: 700;
+  font-size: 0.725rem;
+  transition: all 0.5s ease;
+  background-image: url("../images/mainbg.png");
+  background-size: cover;
+  background-position: center;
+}
+.desktop-menu-burger li {
+  padding-bottom: 10px;
+  padding-left: 20px;
+  list-style: none;
+}
+.desktop-menu-burger li a {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 300;
+}
+.desktop-menu-burger li:first-child {
+  padding-top: 20px;
+}
+
+.desktop-menu-burger__open {
+  right: 0;
+  transition: all 0.5s ease;
+}/*# sourceMappingURL=contact.css.map */
