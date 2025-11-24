@@ -820,4 +820,174 @@ body {
 .desktop-menu-burger__open {
   right: 0;
   transition: all 0.5s ease;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+#deskMenuBurger {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 320px;
+  transform: translateX(100%);
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 999;
+}
+
+#deskMenuBurger.desktop-menu-burger__open {
+  transform: translateX(0);
+}
+
+#toTopBtn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 9998;
+  width: 50px;
+  height: 50px;
+  background: #E9C664;
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.35s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#toTopBtn.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+#toTopBtn:hover {
+  background: #f5d787;
+  transform: translateY(-4px);
+}
+
+@media (max-width: 768px) {
+  #toTopBtn {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+.newsSwiper {
+  padding: 40px 20px;
+  overflow: hidden;
+}
+
+.newsSwiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.newsSwiper .card {
+  width: 320px;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.newsSwiper .card:hover {
+  transform: translateY(-10px);
+}
+
+.newsSwiper .card img {
+  width: 100%;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.newsSwiper .card-inside {
+  padding: 25px;
+  text-align: center;
+}
+
+.newsSwiper .card-inside h3 {
+  font-family: "Abril Fatface", serif;
+  font-size: 22px;
+  margin: 0 0 15px;
+  color: #000;
+}
+
+.newsSwiper .card-inside p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.newsSwiper .card-inside button {
+  background: #E9C664;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.newsSwiper .card-inside button a {
+  text-decoration: none;
+  color: #000;
+}
+
+.newsSwiper .card-inside button:hover {
+  background: #000;
+}
+.newsSwiper .card-inside button:hover a {
+  color: #E9C664;
+}
+
+.newsSwiper .swiper-button-next,
+.newsSwiper .swiper-button-prev {
+  color: #E9C664;
+  background: rgba(0, 0, 0, 0.5);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.newsSwiper .swiper-button-next:after,
+.newsSwiper .swiper-button-prev:after {
+  font-size: 18px;
+}
+
+.newsSwiper .swiper-pagination-bullet {
+  background: #ccc;
+  opacity: 1;
+}
+
+.newsSwiper .swiper-pagination-bullet-active {
+  background: #E9C664;
+}
+
+.newsSwiper {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.newsSwiper.swiper-initialized {
+  opacity: 1;
+}
+
+.newsSwiper {
+  width: 100%;
+  padding: 20px 0;
 }/*# sourceMappingURL=services.css.map */
