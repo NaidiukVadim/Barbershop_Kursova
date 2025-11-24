@@ -10,3 +10,12 @@ burgerMenuDesk.addEventListener('click', () => {
     deskMenu.classList.toggle('desktop-menu__open')
     deskMenuBurger.classList.toggle('desktop-menu-burger__open')
 })
+
+
+const form = document.querySelector('form');
+form.addEventListener('submit', function() {
+    setTimeout(() => {
+        document.querySelector('.success-message').style.display = 'block';
+        form.reset();
+    }, 1000);
+});
