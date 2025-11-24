@@ -292,6 +292,7 @@ body {
 }
 .container main .reviews .reviews-block .review-card img {
   margin-bottom: 50px;
+  border-radius: 50%;
 }
 .container main .reviews .reviews-block .review-card .review-text {
   margin-bottom: 50px;
@@ -345,6 +346,7 @@ body {
 .container main .news .news-cards .card .card-inside {
   background: #000;
   padding: 36px 50px;
+  height: 200px;
 }
 .container main .news .news-cards .card .card-inside h3 {
   color: #ffffff;
