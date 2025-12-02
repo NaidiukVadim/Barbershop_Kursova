@@ -191,23 +191,23 @@ body {
 .container main .info .info-block:last-child {
   margin-bottom: 0;
 }
-.container main .discount {
+.container main .discount-third {
   background: #E9C664;
 }
-.container main .discount .d-block {
+.container main .discount-third .d-block {
   padding: 30px;
 }
-.container main .discount .d-block h2 {
+.container main .discount-third .d-block h2 {
   font-size: 50px;
   font-weight: 400;
   text-transform: uppercase;
   font-family: "Abril Fatface", serif;
 }
-.container main .discount .d-block p {
+.container main .discount-third .d-block p {
   font-size: 16px;
   font-weight: 400;
 }
-.container main .discount .d-block button {
+.container main .discount-third .d-block button {
   width: 150px;
   color: #E9C664;
   text-transform: uppercase;
@@ -216,23 +216,23 @@ body {
   height: 50px;
   transition: 0.3s;
 }
-.container main .discount .d-block button a {
+.container main .discount-third .d-block button a {
   color: #E9C664;
   text-decoration: none;
   font-size: 20px;
 }
-.container main .discount .d-block button:hover {
+.container main .discount-third .d-block button:hover {
   background: #E9C664;
   border: 2px solid #000000;
 }
-.container main .discount .d-block button:hover a {
+.container main .discount-third .d-block button:hover a {
   color: #000000;
 }
-.container main .discount .disc-img {
+.container main .discount-third .disc-img {
   display: flex;
   justify-content: end;
 }
-.container main .discount .disc-img img {
+.container main .discount-third .disc-img img {
   width: 50%;
 }
 .container main .brand-block {
@@ -453,32 +453,32 @@ body {
     font-size: 18px;
     margin-top: 20px;
   }
-  .container main .discount {
+  .container main .discount-third {
     display: flex;
     justify-content: space-between;
     padding: 20px;
   }
-  .container main .discount .d-block {
+  .container main .discount-third .d-block {
     width: 50%;
     padding: 20px;
   }
-  .container main .discount .d-block h2 {
+  .container main .discount-third .d-block h2 {
     font-size: 40px;
   }
-  .container main .discount .d-block p {
+  .container main .discount-third .d-block p {
     font-size: 14px;
   }
-  .container main .discount .d-block button {
+  .container main .discount-third .d-block button {
     width: 120px;
     height: 40px;
   }
-  .container main .discount .d-block button a {
+  .container main .discount-third .d-block button a {
     font-size: 16px;
   }
-  .container main .discount .disc-img {
+  .container main .discount-third .disc-img {
     width: 50%;
   }
-  .container main .discount .disc-img img {
+  .container main .discount-third .disc-img img {
     width: 100%;
   }
   .container main .brand-block {
@@ -602,22 +602,22 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
   }
-  .container main .discount {
+  .container main .discount-third {
     display: flex;
     justify-content: space-evenly;
     height: 407px;
   }
-  .container main .discount .d-block {
+  .container main .discount-third .d-block {
     width: 540px;
   }
-  .container main .discount .d-block h2 {
+  .container main .discount-third .d-block h2 {
     font-size: 70px;
     margin-bottom: 0;
   }
-  .container main .discount .d-block p {
+  .container main .discount-third .d-block p {
     margin-bottom: 35px;
   }
-  .container main .discount .disc-img img {
+  .container main .discount-third .disc-img img {
     width: 562px;
     height: 528px;
     margin-top: -120px;

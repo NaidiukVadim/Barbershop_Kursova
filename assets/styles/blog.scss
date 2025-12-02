@@ -105,7 +105,7 @@ body {
     }
     
     main {
-        .news {
+        .news-main {
             display: flex;
             justify-content: center;
             flex-direction: column;
@@ -334,7 +334,7 @@ body {
         }
 
         main {
-            .news {
+            .news-main {
                 padding-bottom: 30px;
 
                 .news-text {
@@ -490,7 +490,7 @@ body {
         }
 
         main {
-            .news {
+            .news-main {
                 .news-cards {
                     display: grid;
                     grid-template-columns: repeat(4, 1fr);

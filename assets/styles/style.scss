@@ -103,6 +103,8 @@ body {
         background-position: center;
 
         .services {
+            
+
             .text {
                 display: flex;
                 justify-content: center;
@@ -131,6 +133,7 @@ body {
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
+                position: relative;
 
                 .blocks {
                     display: flex;
@@ -162,6 +165,14 @@ body {
                             padding-right: 40px;
                         }
                     }
+                }
+
+                .img-block-head{
+                    position: absolute;
+                    top: 200px;
+                    left: 1100px;
+                    width: 600px;
+                    height: auto;
                 }
 
                 .btn-explore {
@@ -302,7 +313,7 @@ body {
 
                 h2 {
                     margin: 0;
-                    font-size: 40px;
+                    font-size: 35px;
                     font-family: "Abril Fatface", serif;
                 }
 
@@ -394,7 +405,14 @@ body {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
+                align-items: center;
                 margin-bottom: 50px;
+
+                img{
+                    width: auto;
+                    height: 100px;
+                    margin: 10px;
+                }
             }
         }
     }
@@ -492,7 +510,7 @@ body {
         }
     }
 
-    @media screen and (min-width: 576px) and (max-width: 768px) {
+    @media screen and (min-width: 760px) and (max-width: 1025px) {
         header {
             height: 600px;
 
@@ -727,8 +745,10 @@ body {
                     gap: 10px;
                     margin-bottom: 30px;
 
-                    img {
-                        width: 100px;
+                    img{
+                        width: auto;
+                        height: 100px;
+                        margin: 10px;
                     }
                 }
             }
@@ -889,8 +909,8 @@ body {
 
                 .disc-img {
                     img {
-                        width: 562px;
                         height: 528px;
+                        width: auto;
                         margin-top: -120px;
                         z-index: 0;
                     }

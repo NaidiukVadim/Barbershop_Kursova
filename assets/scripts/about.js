@@ -1,5 +1,3 @@
-// script.js (або додай в кінець свого scripts.js)
-
 const barbers = [
     {
         name: "Марлонд Макдональд",
@@ -45,10 +43,8 @@ const barbers = [
     }
 ];
 
-// Отримуємо контейнер
 const container = document.getElementById('barbersContainer');
 
-// Функція створення однієї картки барбера
 function createBarberCard(barber) {
     const block = document.createElement('div');
     block.className = 'b-block';
@@ -75,7 +71,6 @@ function createBarberCard(barber) {
     return block;
 }
 
-// Генеруємо всі картки
 barbers.forEach(barber => {
     const card = createBarberCard(barber);
     container.appendChild(card);

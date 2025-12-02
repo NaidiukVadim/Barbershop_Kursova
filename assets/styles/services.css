@@ -208,31 +208,31 @@ body {
   padding: 0 20px;
   width: 95%;
 }
-.container main .price-discount .discount {
+.container main .price-discount .discount-sec {
   background: #E9C664;
   margin: 10px 30px;
 }
-.container main .price-discount .discount .d-block {
+.container main .price-discount .discount-sec .d-block {
   padding: 30px;
 }
-.container main .price-discount .discount .d-block h3 {
+.container main .price-discount .discount-sec .d-block h3 {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 900;
   text-transform: uppercase;
   margin-top: 50px;
 }
-.container main .price-discount .discount .d-block h2 {
+.container main .price-discount .discount-sec .d-block h2 {
   font-size: 50px;
   font-weight: 400;
   text-transform: uppercase;
   font-family: "Abril Fatface", serif;
 }
-.container main .price-discount .discount .d-block p {
+.container main .price-discount .discount-sec .d-block p {
   font-size: 16px;
   font-weight: 400;
 }
-.container main .price-discount .discount .d-block button {
+.container main .price-discount .discount-sec .d-block button {
   width: 120px;
   color: white;
   text-transform: uppercase;
@@ -241,24 +241,24 @@ body {
   height: 50px;
   transition: 0.3s;
 }
-.container main .price-discount .discount .d-block button a {
+.container main .price-discount .discount-sec .d-block button a {
   color: white;
   text-decoration: none;
   font-size: 16px;
   font-weight: 900;
 }
-.container main .price-discount .discount .d-block button:hover {
+.container main .price-discount .discount-sec .d-block button:hover {
   background: #E9C664;
   border: 2px solid #000000;
 }
-.container main .price-discount .discount .d-block button:hover a {
+.container main .price-discount .discount-sec .d-block button:hover a {
   color: #000000;
 }
-.container main .price-discount .discount .disc-img {
+.container main .price-discount .discount-sec .disc-img-second {
   display: flex;
   justify-content: end;
 }
-.container main .price-discount .discount .disc-img img {
+.container main .price-discount .discount-sec .disc-img-second img {
   width: 100%;
 }
 .container main .reviews {
@@ -544,33 +544,33 @@ body {
     font-size: 13px;
     padding: 0 15px;
   }
-  .container main .price-discount .discount {
+  .container main .price-discount .discount-sec {
     margin: 10px 20px;
     display: flex;
     justify-content: space-between;
   }
-  .container main .price-discount .discount .d-block {
+  .container main .price-discount .discount-sec .d-block {
     width: 50%;
     padding: 20px;
   }
-  .container main .price-discount .discount .d-block h3 {
+  .container main .price-discount .discount-sec .d-block h3 {
     font-size: 18px;
     margin-top: 30px;
   }
-  .container main .price-discount .discount .d-block h2 {
+  .container main .price-discount .discount-sec .d-block h2 {
     font-size: 40px;
   }
-  .container main .price-discount .discount .d-block p {
+  .container main .price-discount .discount-sec .d-block p {
     font-size: 14px;
   }
-  .container main .price-discount .discount .d-block button {
+  .container main .price-discount .discount-sec .d-block button {
     width: 100px;
     height: 40px;
   }
-  .container main .price-discount .discount .d-block button a {
+  .container main .price-discount .discount-sec .d-block button a {
     font-size: 14px;
   }
-  .container main .price-discount .discount .disc-img {
+  .container main .price-discount .discount-sec .disc-img {
     width: 50%;
   }
   .container main .reviews {
@@ -725,20 +725,20 @@ body {
   .container main .price-discount .pricing-block .pricing-item .pricing-description {
     margin-left: 35px;
   }
-  .container main .price-discount .discount {
+  .container main .price-discount .discount-sec {
     display: flex;
     justify-content: space-between;
     margin: 20px 150px;
   }
-  .container main .price-discount .discount .d-block {
+  .container main .price-discount .discount-sec .d-block {
     width: 540px;
     margin-left: 250px;
   }
-  .container main .price-discount .discount .d-block h2 {
+  .container main .price-discount .discount-sec .d-block h2 {
     font-size: 70px;
     margin-bottom: 0;
   }
-  .container main .price-discount .discount .d-block p {
+  .container main .price-discount .discount-sec .d-block p {
     margin-bottom: 35px;
   }
   .container main .reviews .reviews-block {
